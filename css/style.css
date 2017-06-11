@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+.left_wrapper {
+    padding: 50px;
+
+}
+
+h1 {
+	font: 35px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+}
+
+h1 p {
+	line-height: 0em;
+}
+
+h2 {
+	font: 25px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+}
+
+ol, p {
+	font: 12px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+}
+
+a {
+	color: #777;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #28C7CD;
+	text-decoration: none;
+}
+
+.main_list {
+	font: 20px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-weight: 300;
+
+    padding-left: 0px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.main_list p {
+	line-height: 0em;
+}
+
+.main_list li {
+
+}
+
+.test_left_wrapper {
+	position: fixed;
+	top: 10%;
+	left: 25%;
+}
+
+.test_right_wrapper {
+	position: fixed;
+	top: 10%;
+	right: 25%;
+}
+
+.test_right_wrapper h2 {
+	padding: 10px;
+	text-align: right;
+}
+
+footer {
+	position: fixed;
+	top: 10%;
+	left: 25%;
+}

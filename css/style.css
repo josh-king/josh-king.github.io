@@ -28,7 +28,7 @@ h2 {
 ol,
 p,
 footer {
-    font: 12px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
     font-weight: 300;
 }
@@ -85,9 +85,19 @@ a:hover {
     display: inline-block;
 }
 
+.under_wrapper a {
+    color: #327CCB;
+}
+
 .page_title_left {
     color: #327CCB;
     line-height: 0em;
+    text-align: center;
+}
+
+.page_title_left p {
+    color: #327CCB;
+    line-height: .5em;
     text-align: center;
 }
 
@@ -205,23 +215,21 @@ fieldset {
 }
 
 .fadein {
-        left: 0;
+    left: 0;
     height: 410px;
     width: 800px;
-    
     display: inline-block;
     max-width: 800px;
     position: relative;
 }
 
 .fadein img {
-        left: 0;
+    left: 0;
     height: 410px;
     width: 800px;
     transition: opacity 1s;
     opacity: 1;
     max-width: 800px;
-
     position: absolute;
 }
 

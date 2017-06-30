@@ -28,7 +28,7 @@ h2 {
 ol,
 p,
 footer {
-    font: 14px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 15px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
     font-weight: 300;
 }
@@ -50,6 +50,7 @@ a:hover {
     padding-left: 0px;
     list-style-type: none;
     font-weight: bold;
+    line-height: 0.8em;
 }
 
 .main_list p {

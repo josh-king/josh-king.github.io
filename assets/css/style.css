@@ -17,6 +17,13 @@ h1 {
 
 h1 p {
     line-height: 0em;
+    color: #777;
+}
+
+.home_button {
+    height: 10%;
+    width: 10%;
+    object-fit: contain;
 }
 
 h2 {
@@ -31,6 +38,10 @@ footer {
     font: 15px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #777;
     font-weight: 300;
+}
+
+footer {
+    text-align: center;
 }
 
 a {
@@ -55,12 +66,6 @@ a:hover {
 
 .main_list p {
     line-height: 0em;
-}
-
-#home_button {
-    height: 10%;
-    width: 10%;
-    object-fit: contain;
 }
 
 .right_wrapper {
@@ -90,16 +95,24 @@ a:hover {
     color: #327CCB;
 }
 
-.page_title_left {
-    color: #327CCB;
+.middle_title {
+    color: #777777;
     line-height: 0em;
     text-align: center;
 }
 
-.page_title_left p {
+.middle_title p {
     color: #327CCB;
-    line-height: .5em;
+    line-height: 0.5em;
     text-align: center;
+}
+
+.middle_title a {
+    color: #777;
+}
+
+.middle_title a:hover {
+    color: #327CCB;
 }
 
 .contact_container {
@@ -120,7 +133,7 @@ a:hover {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-    font: 400 12px/16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 13px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #contact {

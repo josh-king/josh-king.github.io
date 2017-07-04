@@ -86,9 +86,12 @@ a:hover {
 }
 
 .under_wrapper {
-    width: 450px;
+    vertical-align: top;
+    line-height: 1em;
     text-align: justify;
+    width: 450px;
     display: inline-block;
+    margin-top: 0px;
 }
 
 .under_wrapper a {

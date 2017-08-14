@@ -4,7 +4,7 @@
 
 <head>
     <!-- Title above screen -->
-    <title>JK - projects</title>
+    <title>JK - oop</title>
 
     <!-- Linking the CSS to the page -->
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -116,7 +116,7 @@ public class Computer {
         <i>Polymorphism</i> is an object orientated concept which advise the use of a common interface instead of concrete implementation while writing code. When we program an interface our code is capable of handling any new requirement or enhancement which may arise due to new implementation of our common interface. If we don't use common interface and rely on concrete implementation, we always need to change and duplicate most of our code to support new implementation. SO in short it makes it easier to add new factors into the code. There are two kinds of polymorphism; <i>Overriding</i> and <i>Overloading</i>.<br><br>
 
         <i><b>Overriding</b></i> occurs when a class declares a method with the same signature as that of an inherited method. It is usually used to make the methods within a class more specific. Invoking the superclass' method (from inside the class) is done with the syntax super.name(parameters).For example;
-        <pre><code data-language="Java">package uk.josh-king.concepts;
+        <pre><code data-language="java">package uk.josh-king.concepts;
 
 public class AcerComputer extends Computer {
 
@@ -138,7 +138,7 @@ public class AcerComputer extends Computer {
         <span>
             <b style="font-size:17px;">Encapsulation</b><br>
                 <i>Encapsulation</i> means putting together all the variables (instance variables) and the methods into a single unit called Class. Programmers sometimes refer to encapsulation as using a black box*. A programmer can access and use the methods and data contained in the black box but cannot change them. Below example shows the Computer class with properties, which can be set once while creating object using constructor arguments. Properties can be accessed using getter methods which are having public access modifiers.<br><br>
-            <pre><code data-language="Java">/**
+            <pre><code data-language="java">/**
 * @return the name
 */
 public final String getName() {
@@ -171,7 +171,7 @@ public final EnumOS getOs() {
         <span>
             <b style="font-size:17px">Inheritance</b><br>
                 <i>Inheritance </i> is commonly used state and behavior from other classes. In this example, Computer now becomes the superclass of HPComputer, AcerComputer, and AppleComputer. In the Java, each class is allowed to have one direct superclass. The syntax for creating a subclass is simple; At the beginning of your class declaration, use the extends keyword, followed by the name of the class to inherit from:
-            <pre><code data-language="Java">package uk.josh-king.concepts;
+            <pre><code data-language="java">package uk.josh-king.concepts;
 
 public class AppleComputer extends Computer {
 
@@ -190,7 +190,7 @@ public class AppleComputer extends Computer {
         </span>
     </p>
 
-    <script src="/js/rainbow-custom.min.js"></script>
+    <script src="/assets/js/rainbow-custom.min.js"></script>
 
 </body>
 
